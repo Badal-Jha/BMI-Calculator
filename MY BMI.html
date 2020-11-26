@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="MY BMI.css">
+    <script src="MY BMI.js"></script>
+</head>
+<body >
+    <div class="box">
+        <h1>BMI CALCULATOR</h1>
+         <p>Enter Your weight
+             <input type="text" placeholder="Weight" id="weight">
+             <select name="multiple" id="weightunit">
+                 <option value="kg">kilogram</option>
+                 <option value="pound">pound</option>
+             </select>
+         <p>Enter Your height
+             <input type="text" placeholder="height" id="height">
+             <select name="multiple" id="heightunit">
+                 <option value="meter">meter</option>
+                 <option value="inch">inches</option>
+             </select>
+         </p>
+        <input type="button" value="ComputeBMI" onclick="BMI();" class="submit">
+        <h1>
+            YOUR BODY MASS INDEX(BMI) IS : <span id="output">?</span></h1>
+        <h3>
+            This means You are: <span id="comment">_____</span>
+        </h3>
+    </div>
+  
+       <h5 id="Name">Made By BADAL JHA</h5>
+
+</body>
+</html>

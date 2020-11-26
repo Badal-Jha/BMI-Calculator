@@ -1,0 +1,21 @@
+body{
+    background-color: cadetblue;
+}
+.box{    border: 2px solid red;
+    margin: auto;
+    width: 46%;
+    background-color: chocolate;
+    height: 420px;
+    padding-left: 190px;
+        }
+        #weight,#height{
+            background-color: rgb(238, 227, 129);
+            border-radius: 7px;
+        }
+        .submit{
+            background-color: rgb(127, 128, 105);
+            cursor: pointer;
+        }
+        #Name{
+            text-align: center;
+        }
